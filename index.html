@@ -70,12 +70,6 @@
         <article class="local-session-storage">
             <h2>Defference between local storage and session storage work?</h2>
             <p>
-                Opening a page in a new tab or window creates a new session with the value of the top-level browsing
-                context, which differs from how session cookies work.
-                Opening multiple tabs/windows with the same URL creates sessionStorage for each tab/window.
-                Duplicating a tab copies the tab's sessionStorage into the new tab.
-                Closing a tab/window ends the session and clears objects in sessionStorage.
-
                 Local storage similar to session storage. Datas of the local storage doesn't expire, but session storage
                 data will be cleard at ending of the session. The session data's valid only for particular tab. It's
                 survives over the page reloads and restores but Local storage not like that. New tab or window creates
